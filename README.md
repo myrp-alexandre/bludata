@@ -67,5 +67,5 @@ _tela empresa_
 ![Alt Text](/bludata/docs/telefone.PNG)  
 _tela fornecedores_
 
-![Alt Text](/bludata/docs/fornecedores.PNG)  
+![Alt Text](/bludata/docs/fornecedores.png)  
 _listagem fornecedores_ 
