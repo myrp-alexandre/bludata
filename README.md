@@ -40,7 +40,7 @@ _Se tudo estiver ok, pular para o passo 4_
 
 #### 3) API REST - Restaurar os pacotes e rodar Api
 - Na API REST, pasta /api-bludata 
-`dotnet restore`
+`dotnet restore` 
 - Configurar seu SQL Server, em /api-bludata/api-bludata.cross-cutting.ioc/NativeInjectorBootStrapper.cs 
 `"Server=sql-server;Database=bludata_db;User Id=sa;Password=sa@123456;"` 
 _Informe o endereço do servidor_ 
@@ -48,7 +48,7 @@ _Rode o script bludata-db.sql localizado em '/bludata/api-bludata'_
 - Buildar projeto, pasta '/api-bludata' 
 `dotnet publish -c Release -o ../Publish` 
 
-![Alt Text](../api-bludata/docs/Swagger.PNG)  
+![Alt Text](/api-bludata/docs/Swagger.PNG)  
 _Documentação no swagger_ 
 
 #### 4) Restaure os pacotes do Front-End 
@@ -56,16 +56,16 @@ _Documentação no swagger_
 `npm install` 
 - Rodar projeto 
 `quasar dev` 
-_http://localhost:8080/#/_
+_http://localhost:8080/#/_ 
 
-![Alt Text](/docs/home.PNG)  
+![Alt Text](/bludata/docs/home.PNG)  
 _home_ 
 
-![Alt Text](/docs/empresa.PNG)  
+![Alt Text](/bludata/docs/empresa.PNG)  
 _tela empresa_ 
 
-![Alt Text](/docs/telefone.PNG)  
+![Alt Text](/bludata/docs/telefone.PNG)  
 _tela fornecedores_
 
-![Alt Text](/docs/home.PNG)  
+![Alt Text](/bludata/docs/home.PNG)  
 _listagem fornecedores_ 
