@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api-bludata.application.webapi</name>
+    </assembly>
+    <members>
+        <member name="M:api_bludata.application.webapi.Controllers.EmpresaController.Get(api_bludata.domain.domain.interfaces.repositories.IEmpresaRepository)">
+            <summary>
+            GETALL de Empresa
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.EmpresaController.Post(api_bludata.domain.domain.interfaces.repositories.IEmpresaRepository,api_bludata.domain.domain.models.empresa)">
+            <summary>
+            Cadastro de empresa
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.EstadoController.Get(api_bludata.domain.domain.interfaces.repositories.IEstadoRepository)">
+            <summary>
+            DLL de estados
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.FornecedorController.Get">
+            <summary>
+            Lista todos os fornecedores
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.FornecedorController.Post(api_bludata.domain.domain.models.fornecedor)">
+            <summary>
+            Cadastro de fornecedor
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.FornecedorController.Put(api_bludata.domain.domain.models.fornecedor)">
+            <summary>
+            Atualizar fornecedor
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:api_bludata.application.webapi.Controllers.FornecedorController.Delete(api_bludata.domain.domain.models.fornecedor)">
+            <summary>
+            Deletar fornecedor
+            </summary>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>
