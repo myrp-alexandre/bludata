@@ -1,0 +1,21 @@
+version: "3"
+services:
+    api-bludata:
+        build: .
+        container_name: api-bludata
+        ports:
+            - "44399:80"
+            - "443:443"
+        restart: "always"
+        depends_on:
+            - "sql-server"
+    sql-server:
+        image: microsoft/mssql-server-linux
+        container_name: sql-server
+        restart: "always"
+        ports:
+            - "1433:1433"
+        restart: "always"
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=sa@123456
